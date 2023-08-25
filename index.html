@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style>
+    .flexcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .box1{
+        /* border: 2px solid black; */
+        width: 350px;
+        height: 800px;
+        margin: 5px;
+        
+    }
+    h1{
+        justify-content: center;
+            text-align: center;
+            font-size: 55px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+            <!-- <li class="nav-item">
+            <img src="./logo.jpg" alt="" style="width: 100px; height: 100px; text-decoration: none;">
+        </li> -->
+    <a class="navbar-brand" href="#"><img src="./logo.jpg" alt="" style="width: 50px; height: 50px; text-decoration: none;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./user_page.html">User Profile</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./article1.html">Article 1</a></li>
+            <li><a class="dropdown-item" href="./article2.html">Article 2</a></li>
+            <li><a class="dropdown-item" href="./article3.html">Article 3</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div style="margin: 5px;"><button class="btn btn-outline-success" type="submit">Login/Register</button></div>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <section>
+        <h1>Learn Well</h1>
+        <div class="flexcontainer">
+            <div class="box1">
+                <div style="margin: 5px;">
+                    <a href="./article1.html"><img src="./article1.jpg" alt="" style="height: 400px; width: 250px;"></a>
+                    <div>
+                        <h1>Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas aperiam tempora natus repudiandae distinctio fuga ipsum fugit placeat odio exercitationem. Ut, pariatur? Officiis ullam numquam corrupti eligendi facilis soluta esse architecto reiciendis eos pariatur dicta quasi nostrum aperiam libero, odio iusto ducimus similique dolor error nemo suscipit temporibus optio alias non. Et voluptatum necessitatibus assumenda laboriosam facilis quasi debitis repudiandae?</p>
+                        <button><p><a href="./article1.html">Read More....</a></p></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div style="margin: 5px;">
+                    <a href="./article2.html"><img src="./anger-2.jpg" alt="" style="height: 400px; width: 250px;"></a>
+                    <div>
+                        <h1>Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas aperiam tempora natus repudiandae distinctio fuga ipsum fugit placeat odio exercitationem. Ut, pariatur? Officiis ullam numquam corrupti eligendi facilis soluta esse architecto reiciendis eos pariatur dicta quasi nostrum aperiam libero, odio iusto ducimus similique dolor error nemo suscipit temporibus optio alias non. Et voluptatum necessitatibus assumenda laboriosam facilis quasi debitis repudiandae?</p>
+                        <button><p><a href="./article2.html">Read More....</a></p></button>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div style="margin: 5px;">
+                    <a href="./article3.html"><img src="./article3.jpg" alt="" style="height: 400px; width: 250px;"></a>
+                    <div>
+                        <h1>Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas aperiam tempora natus repudiandae distinctio fuga ipsum fugit placeat odio exercitationem. Ut, pariatur? Officiis ullam numquam corrupti eligendi facilis soluta esse architecto reiciendis eos pariatur dicta quasi nostrum aperiam libero, odio iusto ducimus similique dolor error nemo suscipit temporibus optio alias non. Et voluptatum necessitatibus assumenda laboriosam facilis quasi debitis repudiandae?</p>
+                        <button><p><a href="./article3.html">Read More....</a></p></button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="margin: 5px;">
+                    <div>
+                        <button><p><a href="">Next Article</a></p></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer  style="background-color: rgb(216, 214, 214);">
+        <div>
+            <p>Koushik Das</p>
+            <p>8583915344</p>
+            <p>koushikdas9831@gmail.com</p>
+            <p>Kolkata</p>
+        </div>
+        <div>
+            <form action="">
+                <input type="email" placeholder="Email">
+                <button>Subscribe Us</button>
+            </form>
+        </div>
+        <a href="">Folow us on Facebook</a>
+        <a href="">Folow us on Twitter</a>
+        <a href="">Folow us on Instagram</a>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
